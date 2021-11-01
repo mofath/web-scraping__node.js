@@ -2,6 +2,7 @@ import express from 'express';
 import http from 'http';
 import config from './config';
 import { logger } from './lib';
+import './scrapers/imdb-scrap';
 
 async function startServer() {
   const app = express();
